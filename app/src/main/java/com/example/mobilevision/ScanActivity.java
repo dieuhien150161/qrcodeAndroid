@@ -29,6 +29,7 @@ public class ScanActivity extends AppCompatActivity implements BarcodeReader.Bar
         intent.putExtra("code",barcode.displayValue.toString() );
         startActivity(intent);
 
+
     }
 
     @Override
