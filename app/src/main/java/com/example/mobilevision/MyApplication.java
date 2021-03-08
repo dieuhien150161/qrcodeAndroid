@@ -17,7 +17,6 @@ public class MyApplication extends Application {
         super.onCreate();
         minstance = this;
     }
-
     public static synchronized MyApplication getInstance()
     {
           return minstance;

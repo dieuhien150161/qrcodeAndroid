@@ -12,8 +12,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".TicketActivity"></activity>
+        android:theme="@style/Theme.MobileVision">
+        <activity android:name=".Result_Detail"></activity>
+        <activity android:name=".TicketActivity" />
         <activity android:name=".ScanActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
