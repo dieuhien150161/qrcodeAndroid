@@ -28,7 +28,6 @@ public class ScanActivity extends AppCompatActivity implements BarcodeReader.Bar
         Intent intent = new Intent(ScanActivity.this,TicketActivity.class);
         intent.putExtra("code",barcode.displayValue.toString() );
         startActivity(intent);
-
     }
 
     @Override
@@ -38,6 +37,7 @@ public class ScanActivity extends AppCompatActivity implements BarcodeReader.Bar
 
     @Override
     public void onBitmapScanned(SparseArray<Barcode> sparseArray) {
+
 
     }
 

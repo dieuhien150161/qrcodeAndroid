@@ -8,11 +8,11 @@
     tools:context=".TicketActivity">
 
     <TextView
-        android:id="@+id/loadqrcode"
+        android:id="@+id/tv_json"
         android:text="Qr_code"
         android:textStyle="bold"
-        android:textSize="35dp"
-        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
 
