@@ -30,6 +30,7 @@ public class TicketActivity extends AppCompatActivity {
         String qr_text = intent.getStringExtra("code");
         //tvqrcode.setText(qr_text);
         searchbarcode(qr_text);
+        //changes
     }
 
     public void searchbarcode(String qr_text) {
