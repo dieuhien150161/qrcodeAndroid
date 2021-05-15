@@ -15,6 +15,7 @@
         android:layout_height="match_parent"/>
 
     <info.androidhive.barcode.ScannerOverlay
+        android:id="@+id/scanner_overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#44000000"

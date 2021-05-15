@@ -1,97 +1,104 @@
 package com.example.mobilevision;
 
 public class Object {
-    String name;
-    String picture;
-    String price;
-    String country;
-    String company;
-    String phone;
-    String place;
-    String code;
-    String description;
-
+    String Name;
+    String Country;
+    String Price;
+    String Picture;
+    String Name_company;
+    String Phone;
+    String Place;
+    String Code;
+    String Description;
     public String getName() {
-        return name;
+        return Name;
     }
 
     public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPicture() {
-        return picture;
-    }
-
-    public void setPicture(String picture) {
-        this.picture = picture;
-    }
-
-    public String getPrice() {
-        return price;
-    }
-
-    public void setPrice(String price) {
-        this.price = price;
+        Name = name;
     }
 
     public String getCountry() {
-        return country;
+        return Country;
     }
 
     public void setCountry(String country) {
-        this.country = country;
+        Country = country;
     }
 
-    public String getCompany() {
-        return company;
+    public String getPrice() {
+        return Price;
     }
 
-    public void setCompany(String company) {
-        this.company = company;
+    public void setPrice(String price) {
+        Price = price;
+    }
+
+    public String getPicture() {
+        return Picture;
+    }
+
+    public void setPicture(String picture) {
+        Picture = picture;
+    }
+
+    public String getName_company() {
+        return Name_company;
+    }
+
+    public void setName_company(String name_company) {
+        Name_company = name_company;
     }
 
     public String getPhone() {
-        return phone;
+        return Phone;
     }
 
     public void setPhone(String phone) {
-        this.phone = phone;
+        Phone = phone;
     }
 
     public String getPlace() {
-        return place;
+        return Place;
     }
 
     public void setPlace(String place) {
-        this.place = place;
+        Place = place;
     }
 
     public String getCode() {
-        return code;
+        return Code;
     }
 
     public void setCode(String code) {
-        this.code = code;
+        Code = code;
     }
 
     public String getDescription() {
-        return description;
+        return Description;
     }
 
     public void setDescription(String description) {
-        this.description = description;
+        Description = description;
     }
 
-    public Object(String name, String picture, String price, String country, String company, String phone, String place, String code, String description) {
-        this.name = name;
-        this.picture = picture;
-        this.price = price;
-        this.country = country;
-        this.company = company;
-        this.phone = phone;
-        this.place = place;
-        this.code = code;
-        this.description = description;
+    public Object(String name, String country, String price, String picture, String name_company, String phone, String place, String code, String description) {
+        Name = name;
+        Country = country;
+        Price = price;
+        Picture = picture;
+        Name_company = name_company;
+        Phone = phone;
+        Place = place;
+        Code = code;
+        Description = description;
+    }
+
+    public Object(String name, String price, String picture, String description) {
+        Name = name;
+        Price = price;
+        Picture = picture;
+        Description = description;
     }
 }
+
